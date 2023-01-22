@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blogItem {
+    margin: 15px;
+    font-family: 'Acme', sans-serif;
+}
+
+.blogContainer h1 {
+    font-family: 'Acme', sans-serif;
+    margin: 12px;
+}
+
+.buttons-sm button {
+    font-size: 10px;
+    margin: 0px 3px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

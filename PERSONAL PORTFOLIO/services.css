@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main1 {
+    width: 80vw;
+    padding-top: 10px;
+    padding-left: 160px;
+}
+
+.mainservice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.mainservice h1 {
+    margin: 12px;
+}
+
+.mainservice p {
+    margin: 0px 12px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.service h1 {
+    margin: 12px;
+}
+
+.service h2 {
+    margin: 12px;
+}
+
+.service p {
+    margin: 0px 12px;
+}
+
+.service2 {
+    margin: 12px;
+}
+
+.service2 p {
+    margin: 0px 12px;
+}

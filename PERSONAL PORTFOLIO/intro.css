@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+}
+
+.intro h1 {
+    margin: 12px;
+}
+
+.intro h2 {
+    margin: 12px;
+}
+
+.intro p {
+    margin: 0px 12px;
+}
+
+.skillContainer {
+    padding: 1px;
+}
+
+.skill {
+    width: 200px;
+    height: 6px;
+    background-color: red;
+    border: 1.5px solid black;
+    margin: 0px 3px;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    margin: 0px 12px;
+}
+
+.hundred {
+    width: 200px;
+    background-color: rgba(0, 128, 0, 0.493);
+}
+
+.seventyfive {
+    width: 150px;
+    background-color: rgba(17, 255, 0, 0.484);
+}
+
+.fifty {
+    width: 100px;
+    background-color: orange;
+}
+
+.forty {
+    width: 80px;
+    background-color: rgba(240, 32, 32, 0.699);
+}
+
+.projects {
+    margin: 12px;
+}
+
+.projects h3 {
+    margin: 12px;
+}
+
+.projects p {
+    margin: 0px 12px;
+}

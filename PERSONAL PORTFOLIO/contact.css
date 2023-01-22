@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contactform {
+    font-family: 'Acme', sans-serif;
+    padding-top: 80px;
+    padding: 0px 30px;
+}
+
+.contactform h1 {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px 0px;
+}
+
+.contactform form div {
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 3px;
+}
+
+.contactform form div input {
+    padding: 2px 2px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+#emailHelp {
+    font-size: 10px;
+    margin: 0px 7px;
+    color: rgb(59, 58, 58);
+}
+
+#form-check {
+    display: flex;
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 15px;
+    margin: 3px 3px;
+}
+
+.buttons button {
+    font-size: 13px;
+    margin: 0px 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
